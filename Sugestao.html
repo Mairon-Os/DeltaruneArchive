@@ -1,0 +1,99 @@
+<!-- ALTERADO: este arquivo era o Sobre.html. Foi renomeado para Sugestao.html e o conteúdo foi refeito
+     (antes era o formulário do Clube de Robótica). O MENU abaixo NÃO foi mexido: depois troque
+     o link "Sobre.html" por "Sugestao.html" (e o texto do link) em todas as páginas. -->
+<!DOCTYPE html>
+<html lang="pt">
+
+<head>
+
+  <!-- ALTERADO: título único em cada página (antes todas se chamavam só "Deltarune Archive") -->
+  <title>Sugestões – Deltarune Archive</title>
+  <meta charset="utf-8">
+  <link href="estilo1.css" rel="stylesheet" type="text/css"/>
+</head>
+<body>
+  <div id="cabecalho">
+    <div id="nomedoclube">
+      <h1>Deltarune Archive</h1>
+    </div>
+    <div id="promo">
+     
+      <p>Um repositório dedicado ao universo de Deltarune.</p>
+    </div>
+   </div><!-- fim do cabeçalho div -->
+   <div id="navegacao">
+     <ul>
+       <li><a href="Inicio.html">Inicio</a></li>
+       <li><a href="Personagens.html">Personagens</a></li>
+       <li><a href="Historia.html">Historia</a></li>
+	   
+	   <li><a href="Itens.html">itens</a></li>
+	   <li><a href="Sugestao.html">Sugestões</a></li>
+     </ul>
+  </div> <!-- Fim do div de navegação -->
+  <div id="corpo">
+
+    <h2>Envie a sua sugestão</h2>
+    <p>Tem uma ideia para melhorar o Deltarune Archive? Falta algum personagem, item ou capítulo? Conte-nos aqui!</p>
+
+
+    <form action="" method="post" class="contact" id="form-sugestao">
+      <fieldset>
+        <legend>A sua sugestão</legend>
+        <div>
+          <label for="nome" class="fixedwidth"  >Nome (opcional)</label>
+          
+          <input type="text" name="nome" id="nome" placeholder="Nome completo"/>
+        </div>
+        
+        <div>
+          <label for="assunto" class="fixedwidth">Sobre o quê?</label>
+          <select name="assunto" id="assunto">
+            <option>Personagens</option>
+            <option>História</option>
+            <option>Itens</option>
+            <option>Multimédia (vídeos)</option>
+            <option>Aspeto do site</option>
+            <option>Outro assunto</option>
+          </select>
+        </div>
+        <div>
+          <label for="mensagem" class="fixedwidth">A sua sugestão</label>
+          
+          <textarea name="mensagem" id="mensagem" rows="5" maxlength="500" required="required" placeholder="Escreva aqui a sua ideia..."></textarea>
+          <span id="contador">0 / 500</span>
+        </div>
+        <div>
+          <p>Como conheceu este site?</p>
+          <input type="radio" name="origem" id="escola" value="Escola"/>
+          <label for="escola">Na escola</label>
+          <br/>
+          <input type="radio" name="origem" id="amigos" value="Amigos"/>
+          <label for="amigos">Através de amigos</label>
+          <br/>
+          <input type="radio" name="origem" id="pesquisa" value="Pesquisa"/>
+          <label for="pesquisa">Numa pesquisa na internet</label>
+          <br/>
+          <input type="radio" name="origem" id="outro" value="Outro" checked="checked"/>
+          <label for="outro">De outra forma</label>
+        </div>
+        <div>
+          <p>As melhores sugestões podem aparecer aqui no <em>site</em>, sem o seu nome.</p>
+          <input type="checkbox" name="publicar" id="publicar"/>
+          <label for="publicar">Autorizo que a minha sugestão seja publicada</label>
+        </div>
+        <div class="buttonarea">
+          <input type="submit" value="Enviar sugestão"/>
+        </div>
+      </fieldset>
+    </form>
+
+
+   
+
+    <p>Prefere escrever diretamente? Envie um e-mail para <a href="mailto:a36605@sa-miranda.net.com">a36605@sa-miranda.net</a>.</p>
+  </div><!-- Fim de corpo div -->
+  <script type="text/javascript" src="js/jquery-1.7.2.js"></script>
+  <script type="text/javascript" src="js/common.js"></script>
+</body>
+</html>

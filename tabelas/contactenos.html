@@ -1,0 +1,98 @@
+﻿<!DOCTYPE html>
+<html lang="pt">
+
+<head>
+
+  <title>Clube de Robótica - Escola Sá de Miranda</title>
+  <meta charset="utf-8">
+  <link href="estilo1.css" rel="stylesheet" type="text/css"/>
+</head>
+<body>
+  <div id="cabecalho">
+    <div id="nomedoclube">
+      <h1>Clube de Robótica - Escola Sá de Miranda</h1>
+    </div>
+    <div id="promo">
+      <p>Um clube para todos os estudantes da Escola Sá de Miranda</p>
+    </div>
+  </div><!-- fim do cabeçalho div -->
+  <div id="navegacao">
+     <ul>
+       <li><a href="index.html">Home</a></li>
+       <li><a href="quemsomos.html">Tudo sobre nós</a></li>
+       <li><a href="contactenos.html">Contacte-nos</a></li>
+	   <li><a href="galeriafotos.html">Galeria de fotos</a></li>
+	   <li><a href="eventos.html">Próximos Eventos</a></li>
+     </ul>
+  </div> <!-- Fim do div de navegação -->
+  <div id="corpo">
+    <h2>Contacte-nos</h2>
+    <p>Envie-nos informação sobre eventos futuros, utilizando o seguinte formulário.</p>
+    <form action="" method="post" class="contact">
+      <fieldset>
+        <legend>Informe-nos sobre os próximos eventos</legend>
+        <div>
+          <label for="contactname" class="fixedwidth">Nome de contacto</label>
+          <input type="text" name="contactname" id="contactname"/>
+        </div>
+        <div>
+          <label for="telephone" class="fixedwidth">Telefone</label>
+          <input type="text" name="telephone" id="telephone"/>
+        </div>
+        <div>
+          <label for="email" class="fixedwidth">Endereço Email</label>
+          <input type="text" name="email" id="email"/>
+        </div>
+        <div>
+          <label for="eventname" class="fixedwidth">Nome do evento?</label>
+          <input type="text" name="eventname" id="eventname"/>
+        </div>
+        <div>
+          <label for="eventdate" class="fixedwidth">Data prevista?</label>
+          <input type="text" name="eventdate" id="eventdate"/>
+        </div>
+        <div>
+          <label for="region" class="fixedwidth">Local de realização?</label>
+          <select name="region" id="region">
+            <option>Norte</option>
+            <option>Sul</option>
+            <option>Madeira</option>
+            <option>Açores</option>
+            <option>Europa</option>
+            <option>Internacional (ver detalhes abaixo)</option>
+          </select>
+        </div>
+        <div>
+          <p>Forneça todas as informações que julgue relevantes.</p>
+          <label for="details" class="fixedwidth">Mais detalhes (os que julgue mais relevantes)</label>
+          <textarea name="details" id="details" cols="30" rows="7"></textarea>
+        </div>
+        <div>
+          <p>Caso seja necessário estabelecer contacto, qual o melhor período do dia?</p>
+          <input type="radio" name="timetocall" id="morning" value="Morning"/>
+          <label for="morning">De manhã</label>
+          <br/>
+          <input type="radio" name="timetocall" id="afternoon" value="Afternoon"/>
+          <label for="afternoon">De tarde</label>
+          <br/>
+          <input type="radio" name="timetocall" id="evening" value="Evening"/>
+          <label for="evening">De noite</label>
+          <br/>
+          <input type="radio" name="timetocall" id="never" value="Never" checked="checked"/>
+          <label for="never">Não disponível</label>
+        </div>
+        <div>
+          <p>O Clube de Robótica pode partilhar, aqui neste <em>site</em>, a sua informação com os nossos visitantes. Por favor confirme se está de acordo com esta divulgação.</p>
+          <input type="checkbox" name="publicize" id="publicize" checked="checked"/>
+          <label for="publicize">Pretendo que este evento seja publicitado no V/ <em>site</em></label>
+        </div>
+        <div class="buttonarea">
+          <input type="submit" value="Envie-nos a informação"/>
+        </div>
+      </fieldset>
+    </form>
+    <p>Caso pretenda obter mais informações contacte os responsáveis, do Clube, através do <a href="mailto:robotica@sa-miranda.net">email robotica@sa-miranda.net</a>.</p>
+  </div><!-- Fim de corpo div -->
+</body>
+
+</html>
