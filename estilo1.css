@@ -18,7 +18,7 @@ a {
 }
 
 a:link {
-  color: rgb(0, 0, 0);
+  color: #79a6d2;
 }
 
 a:visited {
@@ -315,7 +315,7 @@ h2, ul {
   color: black;
 }
 
-/* NOVO: caixa de pesquisa da tabela e mensagem "nenhum item" (jQuery em js/common.js) */
+
 .pesquisa {
   width: 260px;
   max-width: 100%;
@@ -336,7 +336,7 @@ h2, ul {
   max-width: 700px;
 }
 
-/* a legenda fica numa "etiqueta" escura para se ler bem por cima da borda */
+
 .contact legend {
   background-color: #101522;
   color: #60A5FA;
@@ -358,7 +358,7 @@ h2, ul {
   margin: 0 0 6px 0;
 }
 
-/* etiqueta com largura fixa: alinha os campos em coluna */
+/* largura fixa: alinha os campos em coluna */
 .fixedwidth {
   display: inline-block;
   width: 170px;
