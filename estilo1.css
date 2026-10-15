@@ -141,9 +141,7 @@ h2, ul {
 
 /* ===========================================================
    LAYOUT: imagem e texto lado a lado (Personagens e Capítulos)
-   ALTERADO: .Personagens e .conteudo-capitulo repetiam o mesmo layout (display:flex + a regra do figure).
-   A parte comum agora está junta; abaixo fica só o que é diferente em cada um.
-   =========================================================== */
+*/
 .Personagens,
 .conteudo-capitulo {
   display: flex;
@@ -257,24 +255,6 @@ h2, ul {
   color: #A8B3C7;
 }
 
-/* NOVO: capítulos em sanfona. A classe .sanfona é posta pelo jQuery (js/common.js) nos títulos dos capítulos */
-.capitulo h2.sanfona {
-  cursor: pointer;
-  user-select: none;
-}
-
-.capitulo h2.sanfona:hover {
-  text-decoration: underline;
-}
-
-.capitulo h2.sanfona::after {
-  content: " \25BE"; /* seta para baixo = aberto */
-  font-size: 60%;
-}
-
-.capitulo h2.sanfona.fechado::after {
-  content: " \25B8"; /* seta para a direita = fechado */
-}
 
 .conteudo-capitulo img {
   width: 300px;

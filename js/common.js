@@ -8,11 +8,10 @@ $("input, textarea").focus(function(){
 
 $(this).select();
 });
-  var $mensagem = $("#mensagem");
-  var $contador = $("#contador");
  
  $("#mensagem").keyup(function () {
-  $("#contador").text($(this).val().length + " / 500");
+    var letras = $(this).val().length;      // a variável com o número
+  $("#contador").text(letras + " / 500"); // escreve a frase
 });
 
 $("figcaption").hide();
