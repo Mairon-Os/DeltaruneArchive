@@ -244,8 +244,6 @@ h2, ul {
   line-height: 1.6;
 }
 
-/* ALTERADO: a classe .capituloTexto foi apagada (estava em 5 parágrafos só para pintar o texto de azul).
-   Agora esta regra faz o mesmo para todos os resumos, sem precisar de classe no HTML. */
 .capitulo .resumo p {
   color: #60A5FA;
 }
