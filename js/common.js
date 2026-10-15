@@ -10,8 +10,8 @@ $(this).select();
 });
  
  $("#mensagem").keyup(function () {
-    var letras = $(this).val().length;      // a variável com o número
-  $("#contador").text(letras + " / 500"); // escreve a frase
+    var letras = $(this).val().length;
+  $("#contador").text(letras + " / 500");
 });
 
 $("figcaption").hide();

@@ -243,7 +243,14 @@ h2, ul {
   font-size: 17px;
   line-height: 1.6;
 }
-
+.pesquisa {
+  width: 260px;
+  max-width: 100%;
+  padding: 6px 8px;
+  border: 1px solid navy;
+  border-radius: 4px;
+  font-family: inherit;
+}
 .capitulo .resumo p {
   color: #60A5FA;
 }
@@ -294,14 +301,7 @@ h2, ul {
 }
 
 
-.pesquisa {
-  width: 260px;
-  max-width: 100%;
-  padding: 6px 8px;
-  border: 1px solid navy;
-  border-radius: 4px;
-  font-family: inherit;
-}
+
 
 /* ===========================================================
    FORMULÁRIO (Sugestao.html)
